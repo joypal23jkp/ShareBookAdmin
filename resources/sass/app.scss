@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Customised scss written here.
+@import "auth/alogin";
+@import "auth/aregistration";
+@import "auth/reset-password-container";
+
+.layout-app{
+    .logo-container{
+        .logo-header{
+            img{ height: 50px; }
+        }
+        .profile-image{
+            width: 50px;
+            padding: 2px;
+            border: 1px solid blueviolet;
+            border-radius: 52px;
+            height: 50px;
+        }
+    }
+}

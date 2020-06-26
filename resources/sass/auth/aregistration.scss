@@ -1,0 +1,19 @@
+.registration-container{
+    .card{
+        .card-header{
+            color: #fcfeff;
+            font-size: 18px;
+            background: #39c3ef;
+            font-weight: bold;
+        }
+        .card-body{
+            form{
+                .form-group{
+                    label{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
